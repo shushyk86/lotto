@@ -1,0 +1,26 @@
+<?php
+
+/* configuration column width follow grid 12 of bootstrap framework 3 */
+if(isset($column_left)){
+    $column_left  = trim($column_left);
+}
+if(isset($column_right)) {
+    $column_right = trim($column_right);
+}
+if( !empty($column_left) && !empty($column_right) ){
+		$layout = 'full';
+	} elseif( empty($column_left) && !empty($column_right) ){
+		$layout = 'center-right';
+	}elseif( !empty($column_left) && empty($column_right) ){
+		$layout = 'center-left';
+	}else {
+		$layout = 'center';
+	}
+	
+	$spans = array( 'full' 			=> array("3", "6", "3" ), /* for layout has left - center - right */
+					'center-right'  => array("0", "9", "3" ), /* for layout has center - right */
+					'center-left'   => array("3", "9", "0" ), /* for layout has left -center */
+					'center'		=> array("0", "12", "0" ) /* for layout only have center */
+	);
+	$SPAN = $spans[$layout];
+?>

@@ -1,0 +1,941 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    width: 100%;
+    margin: 0px;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  /*Local fonts*/
+  /*font-family: 'RobotoRegular', sans-serif;*/
+  /*Google fonts*/
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  color: #151515;
+  width: 100%;
+  margin: 0px;
+}
+#header {
+  display: inline-table;
+  width: 100%;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+.header_cont {
+  width: 1110px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+#header .block_header {
+  width: 445px;
+  /*height: 200px;*/
+  min-height: 130px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+#header .block_header h1 {
+  padding: 0;
+  font-weight: 700;
+  font-size: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+}
+#header .block_header .o_sintetic h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 59px;
+  line-height: 95px;
+}
+#header .block_header .o_sintetic h2 span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  color: #fff;
+  font-size: 48px;
+  line-height: 75px;
+}
+
+#header .o_sintetic {
+  width: 450px;
+  height: 100px;
+
+  background-image: url('http://lotto-sport.com.ua/image/data/blog/b1_1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.my_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2 {
+  float: left;
+  width: 403px;
+  height: 265px;
+  margin-top: 30px;
+  background-image: url('http://lotto-sport.com.ua/image/data/blog/b1_2.png');
+}
+#header .blquote {
+  float: right;
+  width: 620px;
+  height: 106px;
+  margin-top: 70px;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 63px;
+}
+#header .blquote span {
+  font-size: 51px;
+  font-family: 'Open Sans', sans-serif;
+}
+#header_descr {
+  display: inline-table;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+#header_descr .descr_block {
+  float: left;
+  width: 757px;
+  height: 340px;
+  font-weight: 300;
+  line-height: 35px;
+  font-family: 'Open Sans', sans-serif;
+}
+#header_descr .descr_block h2 {
+  font-size: 26px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 35px;
+}
+#header_descr .descr_block p {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.bg3 {
+  float: right;
+  width: 304px;
+  height: 338px;
+  /*margin-top: 30px;*/
+  background-image: url('http://lotto-sport.com.ua/image/data/blog/b1_3.png');
+}
+#header_descr .header_cont {
+  padding: 75px 0;
+}
+#header_title {width: 100%;}
+#header_title .header_cont p {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+#header_title .header_cont p span {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+#dark_block {
+  display: inline-table;
+  width: 100%;
+  background-color: #151515;
+}
+#dark_block .header_cont {
+  padding-top: 45px;
+  padding-bottom: 95px;
+}
+#dark_block .title1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 65px 55px;
+  font-family: 'Open Sans', sans-serif;
+}
+#dark_block .title1 span.big {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+#dark_block .title1 span {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+#dark_block .title1 span span {font-weight: 700;}
+
+.bg4 {
+  float: left;
+  width: 222px;
+  height: 192px;
+  margin-top: 15px;
+  background-image: url('http://lotto-sport.com.ua/image/data/blog/b1_4.png');
+}
+#dark_block .block2 {
+  width: 875px;
+  margin: 0 auto;
+}
+#dark_block .block2 .title2 {
+  float: right;
+  width: 588px;
+  color: white;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+#dark_block .block2 .title2 span {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+#list {
+  display: inline-table;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+#list .list_cont {
+  width: 880px;
+  margin: 0 auto;
+  padding-top: 85px;
+  padding-bottom: 110px;
+}
+#list .list_cont .title_list {
+  font-weight: 700;
+  font-size: 38px;
+  font-style: italic;
+  line-height: 55px;
+  text-transform: uppercase;
+  padding: 80px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+#list .list_cont .title_list span {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+#list .bolck_list .list_img {
+  width: 38px;
+  height: 30px;
+  float: left;
+  background-image: url('http://lotto-sport.com.ua/image/data/blog/list_img.png');
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+#list .bolck_list .list_item {
+  width: 800px;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: 46px;
+}
+#article1 {
+  display: inline-table;
+  width: 100%;
+  background-color: #fff;
+}
+#article1 .footer_cont {
+  width: 750px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+#article1 .footer_cont p,
+#footer1 .footer_cont p
+ {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+#footer1 {
+  display: inline-table;
+  width: 100%;
+  /*height: 100%;*/
+  height: 920px;
+  background-color: #ffffff;
+  /*background-color: #242424;*/
+  background-image: url('http://lotto-sport.com.ua/image/data/blog/b1_footer_bg.png');
+  /*background-image: url('../img/b1_footer_bg.png');*/
+  background-repeat: no-repeat;
+  background-position: top top;
+  background-size: cover;
+  /*box-shadow: 0 -26px 34.6px 3.4px rgba(14, 15, 17, 0.14);*/
+}
+#footer1 .footer_cont {
+    width: 750px;
+    margin: 0 auto;
+}
+#footer1 .footer_cont1 {
+  width: 850px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+#footer1 .footer_cont1 p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  margin-bottom: 70px;
+}
+#footer1 .footer_cont1 p .underline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 40px;
+}
+#footer1 .footer_cont1 p span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+#footer1 .footer_cont2 {
+  width: 1100px;
+  margin: 0 auto;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 66px;
+}
+#footer1 .footer_cont2 .text1 {
+  font-size: 59px;
+  text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 66px;
+}
+#footer1 .footer_cont2 .text2 {
+  font-size: 43px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 66px;
+}
+#footer1 .footer_cont2 .text3 {
+    font-size: 52px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 66px;
+}
+/*Распродажа - блок в началі футера*/
+.block-sale {
+ 
+}
+.block-sale_left,
+.block-sale_right {
+  width: 50%;
+  height:400px;
+  float: left;
+  overflow: hidden; 
+
+  color: #37121D;
+  text-transform: uppercase;
+}
+.block-sale_right {
+  background-color: #B3D6F7;
+}
+.block-sale_left{
+ background: #F3F3F3 url('../img/img_blog_lotto/bg_left_block.jpg')no-repeat 50% 50%;
+ position: relative;
+}
+.block-sale_left--title,
+ .block-sale_right--title {
+  font-size: 25px;
+  font-family: "OpenSansRegular",sans-serif;
+  line-height: 30px;
+}
+.block-sale_left--title {
+  margin-bottom: 40px;
+}
+.block-sale_left--title-bold-text {
+  font-size: 34px;
+  font-family: "OpenSansBold";
+}
+.block-sale_left--title-bold-text i {
+  text-transform: lowercase;
+  font-style: unset;
+}
+.block-sale_left--form {
+  width: 300px;
+  text-align: center;
+
+  margin-right: 170px;
+  padding: 45px 0 30px;
+
+  float: right;
+}
+.block-sale_left--form .form-group {
+   margin-bottom: 15px;
+}
+.block-sale_left--form .form-group input {
+  border: 1px solid #A7A7A7;
+}
+.block-sale_left--form .input_label {
+  display: inline-block;
+ font-size: 14px;
+ font-family: "OpenSansRegular";
+ text-transform: initial;
+
+ color: #2F2F2F;
+}
+.form-group_radio {
+  margin-bottom: 30px;
+}
+.wrapp_btn-default {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 250px;
+}
+.wrapp_btn-default .btn.default {
+	width: 100%;
+	height: 50px;
+
+	background: #41C53A;
+	border-bottom: 3px solid #999600;
+	color: #ffffff;
+	
+	font-size: 14px;
+	font-family: "OpenSansRegular";
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	line-height: 38px;
+}
+.wrapp_btn-default .btn.default:hover {
+  opacity: 0.9;
+}
+.block-sale_left--explanation {
+   font-size: 13px;
+  font-family: "OpenSansRegular",sans-serif;
+  color: ;
+  text-align: center;
+  text-transform: lowercase;
+  padding-top: 10px;
+  color: #676767;
+}
+
+.block-sale_right {
+  padding: 120px 0 120px 170px;
+  text-align: left;
+}
+.block-sale_right--title {
+  margin-bottom: 20px;
+}
+.block-sale_right #details_button {
+  width: 250px
+}
+.block-sale_right #details_button span {
+  color: #FF2523;
+  font-size: 14px;
+}
+.block-sale_right #details_button:hover span {
+  color:#ffffff;
+}
+/*style input[type="radio"]*/
+.form-group_radio input[type="radio"] {
+    visibility: hidden;
+}
+.form-group_radio label.radio {
+  cursor: pointer;
+  text-indent: 10px;
+  overflow: visible;
+  display: inline-block;
+  position: relative;
+}
+
+.form-group_radio label.radio:before {
+  background:#ffffff;
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+}
+
+.form-group_radio label.radio::after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 9px;
+    background: transparent;
+    top: 3.5px;
+    left: 5px;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-right: none;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.form-group_radio input[type=radio]:checked + label:after {
+  opacity: 1;
+}
+.form-group_radio input[type=radio]:checked + label.radio:before {
+  /*background: #999600;*/
+  background: #41C53A;
+}
+.form-group_radio .radio:last-child {
+    margin-left: 39px;
+}
+
+@media (max-width: 1200px) {
+  .block-sale_left--form {
+    margin-right: 20px;
+  }
+  .block-sale_right {
+    padding: 120px 0 120px 20px;
+  }
+}
+@media (max-width: 860px) {
+  .block-sale_left,
+  .block-sale_right {
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  .block-sale_left--title,
+   .block-sale_right--title {
+      font-size: 20px;
+   }
+   .block-sale_right {
+      padding: 50px 0 0 20px;
+    }
+}
+/*END style input[type="radio"]*/
+
+/*.block-sale p {
+  font-weight:bold;
+  font-size: 22px;
+  line-height: 34px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}*/
+/*#rasprodaza .under-color {margin-right: 1rem;}
+#rasprodaza .under-color .button {padding: 0;}
+#rasprodaza .rasp_button { height: 3rem;}
+#rasprodaza .rasp_button a {
+  font-weight:bold;
+  line-height: 3rem;
+}
+#rasprodaza .rasp_button:hover a {
+  color: #fff !important;
+}*/
+/*Кінець стилів Распродажа*/
+/*Hover efect*/
+/* Zoom In #1 */
+.hover01>a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01>a:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/* Zoom In #2 */
+.hover02>a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02>a:hover img {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+/* Rotate */
+.hover06>a img {
+	-webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(0) scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover06>a:hover img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(15deg) scale(1.1);
+}
+/* Gray Scale */
+.hover08>a img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08>a:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(100%);
+}
+
+/* Sepia */
+.hover09>a img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover09>a:hover img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+}
+/* Blur + Gray Scale */
+.hover10>a img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover10>a:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+
+/* Opacity #1 */
+.hover11>a img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11>a:hover img {
+	opacity: .5;
+}
+/* Opacity #2 */
+.hover12 {
+	background: black;
+}
+.hover12>a img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12>a:hover img {
+	opacity: .5;
+}
+.hover13>a img {
+  margin-top: 0px;
+  transition: margin .3s ease;
+}
+.hover13>a:hover img {
+  margin-top: -20px;
+  z-index: 2;
+}
+/**/
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.block_rewievs .product-block {
+    background: #F7F7F7;
+    text-align: center;
+}
+.block_rewievs--name {
+    font-size: 16px;
+    color: #000;
+    word-wrap: break-word;
+    width: 100%;
+    height: 45px;
+}
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*21.04.17*/
+/*.wrapp_btn-default .btn.default {
+    height: 40px;
+    line-height: 30px;
+    border-bottom: none;
+
+    font-size: 13px;
+    font-family: "OpenSansBold",sans-serif;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}*/

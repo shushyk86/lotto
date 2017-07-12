@@ -1,0 +1,307 @@
+#myModal .modal-body {
+	padding: 0;
+}
+.sizes-box {
+	max-height: 780px;
+	max-width: 1000px;
+	min-width: 298px;
+	width: 100%;
+	height: 780px;
+  display: inline-block;
+	font-family: 'Arial', sans-serif !important;
+	font-size: 14px;
+}
+.sizes-content {
+	width: 630px;
+	text-align: center;
+	padding-top: 41px;
+}
+.adult-size .sizes-content,
+.child-shoes-size .sizes-content {
+	width: 548px;
+}
+.sizes-box h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fc5353;
+	font-weight: 700;
+	margin: 23px 0;
+}
+.child-shoes-size h5 {
+	margin-bottom: 10px;
+}
+.sizes-box h6 {
+	font-size: 14px;
+	color: #fc5353;
+	font-weight: 700;
+	margin: 32px 0;
+	line-height: 14px;
+}
+.sizes-box > div {
+	display: inline-block;
+	vertical-align: top;
+}
+.sizes-content table {
+	display: inline-block;
+  margin-top: 45px;
+  border: 2px solid;
+  border-spacing: 0;
+  background: #fff;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 57px;
+  font-size: 14px;
+}
+.sizes-content table th {
+  font-weight: 600;
+  font-size: 14px !important;
+  font-family: 'Arial', sans-serif !important;
+}
+.adult-size table {
+	margin-top: 14px;
+	padding-bottom: 9px;
+  margin-bottom: 15px;
+}
+.child-shoes-size table {
+	margin-top: 0;
+	padding-bottom: 9px;
+  margin-bottom: 0;
+}
+.children-size .sizes-content table th,
+.children-size .sizes-content table td {
+	width: 50%;
+	max-width: 174px;
+	min-width: 174px;
+}
+.adult-size .sizes-content table td,
+.adult-size .sizes-content table th,
+.child-shoes-size .sizes-content table td,
+.child-shoes-size .sizes-content table th {
+	width: 50%;
+	max-width: 174px;
+}
+.women-wear-size .sizes-content table th,
+.women-wear-size .sizes-content table td,
+.men-wear-size .sizes-content table th,
+.men-wear-size .sizes-content table td {
+	width: 33.3%;
+	max-width: 174px;
+	min-width: 174px;
+}
+.sizes-content table th {
+  padding: 8px 0;
+	text-align: center;
+}
+.adult-size .sizes-content table th,
+.child-shoes-size .sizes-content table th {
+    padding: 8px 52px;
+}
+.women-wear-size .sizes-content table td:nth-child(2),
+.men-wear-size .sizes-content table td:nth-child(2) {
+	border-right: 2px solid #000; 
+}
+.women-wear-size .sizes-content table td:first-child,
+.men-wear-size .sizes-content table td:first-child,
+.children-size .sizes-content table td:first-child {
+	margin: 0 4px;
+	border-right: 2px solid #000; 
+	color: #fc5353;
+}
+.women-wear-size .sizes-content table td p,
+.men-wear-size .sizes-content table td p,
+.children-size .sizes-content table td p {
+	margin: 0 4px;
+	border-bottom: 2px solid #dfdfdf; 
+	font-weight: bold;
+  line-height: 60px;
+}
+.adult-size .sizes-content table td p,
+.child-shoes-size .sizes-content table td p{
+	margin: 0 4px;
+	font-weight: bold;
+	padding: 5px;
+  line-height: 28px;
+  height: 16px;
+  box-sizing: content-box;
+}
+.adult-size .sizes-content table td:first-child,
+.child-shoes-size .sizes-content table td:first-child {
+	color: #fc5353;
+}
+.sizes-content table tr:last-child p {
+	border-bottom: none; 
+}
+.sizes-content thead {
+	background: #000;
+	color: #fff;
+	text-transform: uppercase;
+}
+.sizes-content > p {
+	line-height: 22px;
+	margin: 12px 0;
+}
+.advance {
+	width: 360px;
+  padding-top: 90px;
+}
+.advance p {
+	font-size: 12px;
+	margin: 12px 0;
+}
+.children-size {
+	background: url(/image/child-size-bg.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+}
+.women-wear-size {
+	background: url(/image/women-wear-size-bg.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+}
+.men-wear-size {
+	background: url(/image/men-wear-size-bg.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+}
+.adult-size {
+	background: url(/image/adult-shoes-bg.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+	height: 830px;
+	max-height: 830px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.adult-size.sox {
+	background: url(/image/sox1.jpg) 50% 0% no-repeat, linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+}
+.adult-size.getres {
+	background: url(/image/getres1.jpg) 50% 0% no-repeat, linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+}
+.child-shoes-size {
+	background: url(/image/child-shoes-size-bg.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+	height: 840px;
+	max-height: 840px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.adult-size .sizes-content,
+.child-shoes-size .sizes-content {
+	width: 60%;
+}
+.advance {
+	width: 39%;
+}
+
+@media (max-width: 992px) {
+	.dropdown-menu {
+    background-color: #fff !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+	.modal-lg {
+    width: 87% !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.sizes-content {
+    width: 310px !important;
+		float: left;
+  }
+  .sizes-box h5 {
+    font-size: 14px;
+  } 
+  .sizes-box {
+    font-size: 10px;
+    background-size: contain;
+    background-position: 100% 0%;
+    height: auto;
+  }  
+  .sizes-content table th,
+  .sizes-content table td {
+    font-size: 10px !important;
+	}
+  .sizes-content table {
+  	margin: 0;
+  }
+  .women-wear-size .sizes-content table td p, 
+  .men-wear-size .sizes-content table td p, 
+  .children-size .sizes-content table td p {
+    line-height: 30px;
+	}
+	.children-size .sizes-content table th,
+	.children-size .sizes-content table td,
+	.women-wear-size .sizes-content table th,
+	.women-wear-size .sizes-content table td,
+	.men-wear-size .sizes-content table th,
+	.men-wear-size .sizes-content table td {
+		min-width: 65px;
+	}
+	.adult-size .sizes-content table th,
+	.child-shoes-size .sizes-content table th,
+	.adult-size .sizes-content table td, 
+	.child-shoes-size .sizes-content table td {
+	  font-size: 14px !important;
+	}
+	.adult-size.sox .sizes-content table th,
+	.adult-size.getres .sizes-content table th {
+		font-size: 10px !important;
+		padding: 8px 10px;
+	}
+	.adult-size,
+	.adult-size.sox,
+	.adult-size.getres,
+	.child-shoes-size {
+		background: linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+		max-height: inherit;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.adult-size .sizes-content,
+	.child-shoes-size .sizes-content {
+		width: 100% !important;
+		padding-top: 0;
+	}
+	.advance {
+    width: 100%;
+    padding: 0;
+    background: #EBE9EE;
+	}
+	.advance * {
+		padding: 0 10px;
+	}
+	.adult-size h5 {
+		background: url(/image/adult-shoes-bg2.jpg) 50% 100% no-repeat;
+		padding-bottom: 135px;
+	}
+	.adult-size.sox h5 {
+		background: url(/image/sox2.png) 50% 100% no-repeat;
+	}
+	.adult-size.getres h5 {
+		background: url(/image/getres2.png) 50% 190% no-repeat;
+	    padding-bottom: 200px;
+	}
+	.child-shoes-size h5 {
+		background: url(/image/child-shoes-size-bg2.png) 50% 100% no-repeat;
+		padding-bottom: 135px;
+	}
+} 
+@media (max-width: 580px) {
+	.women-wear-size {
+	background: linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+	}
+	.men-wear-size {
+		background: linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+	}
+	.children-size {
+		background: linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+	}
+	.sizes-content {
+    width: 100% !important;
+		float: none;
+  }
+}
+@media (max-width: 440px) {
+	.men-wear-size,
+	.children-size,
+	.women-wear-size {
+		background: linear-gradient(to bottom, #e4e2e5, #EBE9EE);
+	}
+	.sizes-content {
+  	width: 100% !important;
+  	padding-top: 0;
+  }
+}
