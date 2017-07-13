@@ -19,11 +19,6 @@
 <?php echo $header; ?>
 <?php if( $special )  { $s_pieces = explode(' ', $special); } ?>
 <?php $p_pieces = explode(' ', $price); ?>
-<?php if( $special )  {
-		$actual_price = $s_pieces[0];
-	  } else {
-		$actual_price = $p_pieces[0]; 
-} ?>
 
 <?php require( DIR_TEMPLATE.$this->config->get('config_template')."/template/common/breadcrumb.tpl" );  ?>  
 <?php if( $SPAN[0] ): ?>
