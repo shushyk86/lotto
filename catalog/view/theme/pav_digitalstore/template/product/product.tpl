@@ -19,9 +19,11 @@
 <?php echo $header; ?>
 <?php if( $special )  { $s_pieces = explode(' ', $special); } ?>
 <?php $p_pieces = explode(' ', $price); ?>
+
 wlerkvjhnrtlkjnlrgkverg
 erglkhjerglokjrglkj
 ergpkijolikjhoijf
+
 
 <?php require( DIR_TEMPLATE.$this->config->get('config_template')."/template/common/breadcrumb.tpl" );  ?>  
 <?php if( $SPAN[0] ): ?>
