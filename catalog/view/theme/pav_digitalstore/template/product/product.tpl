@@ -25,34 +25,6 @@
 		$actual_price = $p_pieces[0]; 
 } ?>
 
-<!-- FB tracking -->
-<script type="text/javascript">
-ga('ec:addProduct', {
-    'id': '<?php echo $clear_sku; ?>',
-    'name': '<?php echo $clear_name; ?>'
-});
-ga('ec:setAction', 'detail');
-
-fbq('track', 'ViewContent', { 
-    content_type: 'product',
-    content_ids: ['<?php echo $clear_sku; ?>'],
-    content_name: '<?php echo $clear_name; ?>',
-    value: <?php echo $actual_price; ?>,
-    currency: 'UAH'
-});
-</script>
-<!-- End FB tracking -->
-
-<script type="text/javascript">
-var _tmr = _tmr || [];
-_tmr.push({
-type: 'itemView',
-productid: '<?php echo $clear_sku; ?>',
-pagetype: 'product',
-totalvalue: '<?php echo $actual_price; ?>',
-list: '1' });
-</script>
-
 <?php require( DIR_TEMPLATE.$this->config->get('config_template')."/template/common/breadcrumb.tpl" );  ?>  
 <?php if( $SPAN[0] ): ?>
 	<aside class="col-lg-<?php echo $SPAN[0];?> col-md-<?php echo $SPAN[0];?> col-sm-12 col-xs-12">
@@ -389,30 +361,10 @@ list: '1' });
             <div class="price">
                 <?php if (!$special) { ?>
                     <span class="text-price"><?php echo $text_price; ?></span><?php echo $price; ?>
-                    <?php if(!$this->customer->isLogged()) { ?>
-                        <p class="text-price">Получите персональную скидку до <span>-10%</span> пройдя <a href="/register"  style="text-decoration: underline;color:#84d00d;">регистрацию</a></p>
-                    <?php } else { ?>
-                        <?php if(!$is_sale_category){ ?>
-                            <p class="text-price">Ваша персональная скидка: <span style="color: red; padding-left: 5px;"><?php echo $customer_price; ?></span><br><span style="font-size: small">(дополнительно <span style="color: red">-<?php echo $customer_percent; ?>%</span> с использованием <?php echo $customer_points; ?> бонусных гривен)</span></p>
-                            <a style="font-size: 14px; text-decoration: underline;" href="/instruktsyja-bonusnye-grivny" target="_blank">Как использовать бонусные гривны?</a>
-                        <?php } else { ?>
-                            <p class="sale-cat-text">Бонусные гривны не распространяются на товары из категории "распродажа недели"</p>
-                            <a style="font-size: 14px; text-decoration: underline;" href="/instruktsyja-bonusnye-grivny" target="_blank">Как использовать бонусные гривны?</a>
-                        <?php } ?>
-                    <?php } ?>
+
                 <?php } else { ?>
                     <span class="text-price">Старая цена: </span><span class="price-old"><?php echo $price; ?></span><br><span class="text-price">Новая цена: </span><span class="price-new"><?php echo $special; ?></span>
-                    <?php if(!$this->customer->isLogged()){ ?>
-                        <p class="text-price">Получите персональную скидку до <span>-10%</span>  пройдя <a href="/register" style="text-decoration: underline;color:#84d00d;">регистрацию</a></p>
-                    <?php } else { ?>
-                        <?php if(!$is_sale_category){ ?>
-                            <p class="text-price">Ваша персональная скидка: <span style="color: red; padding-left: 5px;"><?php echo $customer_price; ?></span><br><span style="font-size: small">(дополнительно <span style="color: red">-<?php echo $customer_percent; ?>%</span> с использованием <?php echo $customer_points; ?> бонусных гривен)</span></p>
-                            <a style="font-size: 14px; text-decoration: underline;" href="/instruktsyja-bonusnye-grivny" target="_blank">Как использовать бонусные гривны?</a>
-                        <?php } else { ?>
-                            <p class="sale-cat-text">Бонусные гривны не распространяются на товары из категории "распродажа недели"</p>
-                            <a style="font-size: 14px; text-decoration: underline;" href="/instruktsyja-bonusnye-grivny" target="_blank">Как использовать бонусные гривны?</a>
-                        <?php } ?>
-                    <?php } ?>
+                    
                 <?php } ?>
                 <br />
                 <?php if ($tax) { ?>
