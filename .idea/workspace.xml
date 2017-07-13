@@ -34,12 +34,12 @@
       <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
-                <marker date="1499957498330" expanded="true" signature="23345:23360" ph="..." />
-                <marker date="1499957498330" expanded="true" signature="40969:40983" ph="..." />
-                <marker date="1499957498330" expanded="true" signature="41973:41991" ph="..." />
+                <marker date="1499958926639" expanded="true" signature="23406:23421" ph="..." />
+                <marker date="1499958926639" expanded="true" signature="41030:41044" ph="..." />
+                <marker date="1499958926639" expanded="true" signature="42034:42052" ph="..." />
               </folding>
             </state>
           </provider>
@@ -57,6 +57,7 @@
       </list>
     </option>
   </component>
+  <component name="JoomlaConfiguration" doNotAskAgain="true" />
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -264,8 +265,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,17 +286,18 @@
       <updated>1499946945328</updated>
       <workItem from="1499946946799" duration="1187000" />
       <workItem from="1499957483266" duration="21000" />
+      <workItem from="1499958907701" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1208000" />
+    <option name="totallyTimeSpent" value="1227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1663113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -353,21 +355,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1499957498330" expanded="true" signature="23345:23360" ph="..." />
-            <marker date="1499957498330" expanded="true" signature="40969:40983" ph="..." />
-            <marker date="1499957498330" expanded="true" signature="41973:41991" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="23406:23421" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="41030:41044" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="42034:42052" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1499957498330" expanded="true" signature="23345:23360" ph="..." />
-            <marker date="1499957498330" expanded="true" signature="40969:40983" ph="..." />
-            <marker date="1499957498330" expanded="true" signature="41973:41991" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="23406:23421" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="41030:41044" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="42034:42052" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <marker date="1499958926639" expanded="true" signature="23406:23421" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="41030:41044" ph="..." />
+            <marker date="1499958926639" expanded="true" signature="42034:42052" ph="..." />
           </folding>
         </state>
       </provider>
