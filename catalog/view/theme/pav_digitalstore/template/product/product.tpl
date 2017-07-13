@@ -22,7 +22,7 @@
 <?php if( $special )  {
 		$actual_price = $s_pieces[0];
 	  } else {
-		$actual_price = $p_pieces[0]; 
+		$actual_price = $p_pieces[0];
 } ?>
 
 <?php require( DIR_TEMPLATE.$this->config->get('config_template')."/template/common/breadcrumb.tpl" );  ?>  

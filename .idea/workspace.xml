@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="097a9d13-5aff-44f7-8669-e70a05b55b8c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/simplecheckout_cart.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/simplecheckout_cart.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl" />
     </list>
     <ignored path="www.iws" />
@@ -34,12 +35,12 @@
       <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6307">
-              <caret line="371" column="41" selection-start-line="371" selection-start-column="41" selection-end-line="371" selection-end-column="41" />
+            <state relative-caret-position="731">
+              <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
               <folding>
-                <marker date="1499953754005" expanded="true" signature="23450:23465" ph="..." />
-                <marker date="1499953754005" expanded="true" signature="41074:41088" ph="..." />
-                <marker date="1499953754005" expanded="true" signature="42078:42096" ph="..." />
+                <marker date="1499957331321" expanded="true" signature="23449:23464" ph="..." />
+                <marker date="1499957331321" expanded="true" signature="41073:41087" ph="..." />
+                <marker date="1499957331321" expanded="true" signature="42077:42095" ph="..." />
               </folding>
             </state>
           </provider>
@@ -53,6 +54,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/catalog/controller/checkout/simplecheckout_cart.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl" />
       </list>
     </option>
@@ -263,6 +265,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -283,12 +325,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499946945328</updated>
-      <workItem from="1499946946799" duration="3886000" />
+      <workItem from="1499946946799" duration="5758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3886000" />
+    <option name="totallyTimeSpent" value="5758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -349,14 +391,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/simplecheckout_cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="483" column="27" selection-start-line="483" selection-start-column="27" selection-end-line="483" selection-end-column="27" />
+          <folding>
+            <marker date="1499957228917" expanded="true" signature="9358:9406" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6307">
-          <caret line="371" column="41" selection-start-line="371" selection-start-column="41" selection-end-line="371" selection-end-column="41" />
+        <state relative-caret-position="731">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
           <folding>
-            <marker date="1499953754005" expanded="true" signature="23450:23465" ph="..." />
-            <marker date="1499953754005" expanded="true" signature="41074:41088" ph="..." />
-            <marker date="1499953754005" expanded="true" signature="42078:42096" ph="..." />
+            <marker date="1499957331321" expanded="true" signature="23449:23464" ph="..." />
+            <marker date="1499957331321" expanded="true" signature="41073:41087" ph="..." />
+            <marker date="1499957331321" expanded="true" signature="42077:42095" ph="..." />
           </folding>
         </state>
       </provider>

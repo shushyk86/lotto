@@ -481,6 +481,7 @@ class ControllerCheckoutSimpleCheckoutCart extends Controller {
 
                 if(isset($tt)){
                     $tot = $tt;
+                    $first_price = $price = $this->currency->format($this->tax->calculate($product['ao_price'], $product['tax_class_id'], $this->config->get('config_tax')));
                 } else {
                     $tot = $total;
                 }
