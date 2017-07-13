@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="097a9d13-5aff-44f7-8669-e70a05b55b8c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl" />
-    </list>
+    <list default="true" id="097a9d13-5aff-44f7-8669-e70a05b55b8c" name="Default" comment="" />
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,12 +32,17 @@
       <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="366" column="20" selection-start-line="366" selection-start-column="20" selection-end-line="366" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="370" column="351" selection-start-line="370" selection-start-column="351" selection-end-line="370" selection-end-column="351" />
               <folding>
-                <marker date="1499947338559" expanded="true" signature="22348:22363" ph="..." />
-                <marker date="1499947338559" expanded="true" signature="39972:39986" ph="..." />
-                <marker date="1499947338559" expanded="true" signature="40976:40994" ph="..." />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#p#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#p#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <marker date="1499948144691" expanded="true" signature="23450:23465" ph="..." />
+                <marker date="1499948144691" expanded="true" signature="41074:41088" ph="..." />
+                <marker date="1499948144691" expanded="true" signature="42078:42096" ph="..." />
               </folding>
             </state>
           </provider>
@@ -283,12 +286,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499946945328</updated>
-      <workItem from="1499946946799" duration="390000" />
+      <workItem from="1499946946799" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390000" />
+    <option name="totallyTimeSpent" value="1187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -349,12 +352,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="366" column="20" selection-start-line="366" selection-start-column="20" selection-end-line="366" selection-end-column="20" />
+        <state relative-caret-position="425">
+          <caret line="370" column="351" selection-start-line="370" selection-start-column="351" selection-end-line="370" selection-end-column="351" />
           <folding>
-            <marker date="1499947338559" expanded="true" signature="22348:22363" ph="..." />
-            <marker date="1499947338559" expanded="true" signature="39972:39986" ph="..." />
-            <marker date="1499947338559" expanded="true" signature="40976:40994" ph="..." />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#p#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <marker date="1499948144691" expanded="true" signature="23450:23465" ph="..." />
+            <marker date="1499948144691" expanded="true" signature="41074:41088" ph="..." />
+            <marker date="1499948144691" expanded="true" signature="42078:42096" ph="..." />
           </folding>
         </state>
       </provider>
