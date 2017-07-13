@@ -9,7 +9,7 @@
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
+    <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
@@ -34,12 +34,12 @@
       <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="361" column="16" selection-start-line="361" selection-start-column="16" selection-end-line="361" selection-end-column="16" />
+            <state relative-caret-position="6307">
+              <caret line="371" column="41" selection-start-line="371" selection-start-column="41" selection-end-line="371" selection-end-column="41" />
               <folding>
-                <marker date="1499948497864" expanded="true" signature="21920:21935" ph="..." />
-                <marker date="1499948497864" expanded="true" signature="39544:39558" ph="..." />
-                <marker date="1499948497864" expanded="true" signature="40548:40566" ph="..." />
+                <marker date="1499953754005" expanded="true" signature="23450:23465" ph="..." />
+                <marker date="1499953754005" expanded="true" signature="41074:41088" ph="..." />
+                <marker date="1499953754005" expanded="true" signature="42078:42096" ph="..." />
               </folding>
             </state>
           </provider>
@@ -270,7 +270,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -283,12 +283,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499946945328</updated>
-      <workItem from="1499946946799" duration="1540000" />
+      <workItem from="1499946946799" duration="3886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1540000" />
+    <option name="totallyTimeSpent" value="3886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -351,12 +351,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/pav_digitalstore/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="361" column="16" selection-start-line="361" selection-start-column="16" selection-end-line="361" selection-end-column="16" />
+        <state relative-caret-position="6307">
+          <caret line="371" column="41" selection-start-line="371" selection-start-column="41" selection-end-line="371" selection-end-column="41" />
           <folding>
-            <marker date="1499948497864" expanded="true" signature="21920:21935" ph="..." />
-            <marker date="1499948497864" expanded="true" signature="39544:39558" ph="..." />
-            <marker date="1499948497864" expanded="true" signature="40548:40566" ph="..." />
+            <marker date="1499953754005" expanded="true" signature="23450:23465" ph="..." />
+            <marker date="1499953754005" expanded="true" signature="41074:41088" ph="..." />
+            <marker date="1499953754005" expanded="true" signature="42078:42096" ph="..." />
           </folding>
         </state>
       </provider>
