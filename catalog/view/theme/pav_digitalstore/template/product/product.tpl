@@ -359,22 +359,7 @@
 
         <?php if ($price) { ?>
             <div class="price">
-                <?php if (!$special) { ?>
-                    <span class="text-price"><?php echo $text_price; ?></span><?php echo $price; ?>
-
-                <?php } else { ?>
-                    <span class="text-price">Старая цена: </span><span class="price-old"><?php echo $price; ?></span><br><span class="text-price">Новая цена: </span><span class="price-new"><?php echo $special; ?></span>
-                    <?php if(!$this->customer->isLogged()){ ?>
-                        <p class="text-price">Получите персональную скидку до <span>-10%</span>  пройдя <a href="/register" style="text-decoration: underline;color:#84d00d;">регистрацию</a></p>
-                    <?php } else { ?>
-                        <?php if(!$is_sale_category){ ?>
-                            <p class="text-price">Ваша персональная скидка: <span style="color: red; padding-left: 5px;"><?php echo $customer_price; ?></span><br><span style="font-size: small">(дополнительно <span style="color: red">-<?php echo $customer_percent; ?>%</span> с использованием <?php echo $customer_points; ?> бонусных гривен)</span></p>
-                        <?php } else { ?>
-                            <p class="sale-cat-text">Бонусные гривны не распространяются на товары из категории "распродажа недели"</p>
-                            <a style="font-size: 14px; text-decoration: underline;" href="/instruktsyja-bonusnye-grivny" target="_blank">Как использовать бонусные гривны?</a>
-                        <?php } ?>
-                    <?php } ?>
-                <?php } ?>
+                
                 <br />
                 <?php if ($tax) { ?>
                     <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
