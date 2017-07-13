@@ -19,6 +19,7 @@
 <?php echo $header; ?>
 <?php if( $special )  { $s_pieces = explode(' ', $special); } ?>
 <?php $p_pieces = explode(' ', $price); ?>
+
 <?php if( $special )  {
 		$actual_price = $s_pieces[0];
 	  } else {
